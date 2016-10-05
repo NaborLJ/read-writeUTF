@@ -15,7 +15,6 @@ public class PrimitiveWriteUTF {
 
     
     public static void main(String[] args) throws IOException {
-        int contador=0;
         File texto3 = new File("/home/oracle/NetBeansProjects/primitiveWriteUTF/texto3.txt");
         texto3.createNewFile();
         DataOutputStream textdout = new DataOutputStream(new FileOutputStream("texto3.txt",true));
